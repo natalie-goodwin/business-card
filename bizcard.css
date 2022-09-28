@@ -1,0 +1,54 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} /*if the browser finds the style, it will use that style;
+otherwise it moves to the next style */
+ 
+
+/*.border {
+    border: 1px dotted blue; 
+} utility class: a class for a single css property*/
+
+img {
+    margin-right: 30px;
+    border-radius: 150px;
+    border: 3px dotted goldenrod
+}
+.card {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0 auto;   
+    text-align: center;   
+    color: #2b2839;
+    border: 6px double goldenrod;    
+    border-radius: 40px;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+    
+}
+
+.italic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.self-image {
+    width: 190px;
+}
+
+/* CSS inheritance: allows for DRY code (Don't Repeat Yourself);
+fewer bugs; more efficient development*/
+
+/*web safe fonts all ready are preinstalled inside a client
+*/
+
+/*margin shorthand with 4 different values:
+margin: top right bottom left; also 
+margin: top/bottom  right/left: 
+  */
